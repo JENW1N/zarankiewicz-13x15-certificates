@@ -1,0 +1,102 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2024
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 2.1.2
+c clang++-Clang 22.1.7 (https://github.com/msys2/MINGW-packages b8f306ad57e0c8f3f15aed0dc809d7e3e8e2eee9)
+c Sep 24 2026 11:04:09
+c 
+c --- [ proof tracing ] ------------------------------------------------------
+c 
+c opening file to write 'C:\Users\jluke\Documents\Codex\2026-11-07\q-3\work\zarankiewicz-revision-2026-11-16\support\sat\profile-12.drat'
+c writing non-binary proof trace to 'C:\Users\jluke\Documents\Codex\2026-11-07\q-3\work\zarankiewicz-revision-2026-11-16\support\sat\profile-12.drat'
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'C:\Users\jluke\Documents\Codex\2026-11-07\q-3\work\zarankiewicz-revision-2026-11-16\support\sat\profile-12.cnf'
+c opening file to read 'C:\Users\jluke\Documents\Codex\2026-11-07\q-3\work\zarankiewicz-revision-2026-11-16\support\sat\profile-12.cnf'
+c found 'p cnf 286 61828' header
+c parsed 61828 clauses in 0.06 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c   --binary=false                 (different from default 'true')
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reductions  redundant  irredundant
+c         MB    restarts       trail     variables
+c          level   conflicts       glue      remaining
+c 
+c *  0.06 13  0 0   0    0    0  0% 0 61828 286 100%
+c {  0.08 15  0 0   0    0    0  0% 0 61828 286 100%
+c i  0.09 17 14 0   9  266  237 57% 4 61828 252 88%
+c i  0.09 17 14 0  10  267  237 57% 4 61828 251 88%
+c i  0.09 17 14 0  11  273  241 57% 4 61828 246 86%
+c i  0.09 17 14 0  12  274  241 57% 4 61828 244 85%
+c -  0.12 13 13 1  12  300  260 56% 4 53275 244 85%
+c i  0.12 15 13 1  14  320  276 56% 4 53275 243 85%
+c i  0.12 15 13 1  14  321  276 56% 4 53275 241 84%
+c }  0.14 15 11 1  19  473  373 60% 4 53275 229 80%
+c 0  0.14 15 11 1  19  473  373 60% 4 53275 229 80%
+c 
+c --- [ closing proof ] ------------------------------------------------------
+c 
+c DRAT proof file 'C:\Users\jluke\Documents\Codex\2026-11-07\q-3\work\zarankiewicz-revision-2026-11-16\support\sat\profile-12.drat' closed
+c DRAT 8302 added clauses 33.58%
+c DRAT 16424 deleted clauses 66.42%
+c DRAT 834453 bytes (0.80 MB)
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.08  100.00% search
+c         0.06   80.00% parse
+c         0.06   80.00% unstable
+c         0.02   20.00% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.08   55.56% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:                99        20.93 %  of conflicts
+c conflicts:                   473      6054.40    per second
+c decisions:                   895     11456.00    per second
+c fixed:                        57        19.93 %  of all variables
+c learned:                     460        97.25 %  per conflict
+c learned_lits:               7116       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                   1383        19.44 %  learned literals
+c minishrunken:                448         6.30 %  learned literals
+c otfs:                         16         3.38 %  of conflict
+c propagations:              10479         0.13 M  per second
+c restarts:                     19        24.89    interval
+c subsumed:                     73         0.12 %  of all clauses
+c strengthened:                 16         0.03 %  of all clauses
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.14    seconds
+c total real time since initialization:            0.15    seconds
+c maximum resident set size of process:           16.89    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20

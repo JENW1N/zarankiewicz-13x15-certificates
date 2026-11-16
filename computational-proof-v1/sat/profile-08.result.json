@@ -1,0 +1,9 @@
+{
+  "id": "profile-08",
+  "solver_exit_code": 20,
+  "solver_seconds": 1.156,
+  "checker_exit_code": 0,
+  "verified": true,
+  "proof_bytes": 1703596,
+  "proof_sha256": "e211fbec3da2e0a8780081e1237c78099b995912cc2c067f29a83590ff3d1809"
+}

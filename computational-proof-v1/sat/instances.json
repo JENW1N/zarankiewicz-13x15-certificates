@@ -1,0 +1,272 @@
+[
+  {
+    "id": "profile-00",
+    "degrees": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7
+    ],
+    "equivalence_classes": 10,
+    "ordered_forms": 1521,
+    "variables": 1413,
+    "clauses": 70222,
+    "input_sha256": "c51042bd12193d2fd895ad355b604f087a7bb246217fb61b07ba47c33374c0d4"
+  },
+  {
+    "id": "profile-01",
+    "degrees": [
+      9,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7,
+      7
+    ],
+    "equivalence_classes": 2,
+    "ordered_forms": 37,
+    "variables": 286,
+    "clauses": 64633,
+    "input_sha256": "9fa1372ff418d29e021b4295bdf731621a17cec74d3b8fb876aea0ed7173fdb1"
+  },
+  {
+    "id": "profile-02",
+    "degrees": [
+      9,
+      9,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 3,
+    "ordered_forms": 14,
+    "variables": 286,
+    "clauses": 63752,
+    "input_sha256": "2c779165cc3c4ccddcba61c9779336845d371208ed7a1200c979b9e3f1b54234"
+  },
+  {
+    "id": "profile-03",
+    "degrees": [
+      9,
+      9,
+      9,
+      8,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 62880,
+    "input_sha256": "6eebc7c351875014fdcb7b02400e9a544b383adfd146b82f142c2cc15ea8c203"
+  },
+  {
+    "id": "profile-04",
+    "degrees": [
+      10,
+      8,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 1,
+    "ordered_forms": 9,
+    "variables": 286,
+    "clauses": 63539,
+    "input_sha256": "8a0c62ab9d45fe7bdd8c4530d47edefd2419b62f2cc0c56b8ff3dbfb50f81808"
+  },
+  {
+    "id": "profile-05",
+    "degrees": [
+      10,
+      9,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 272,
+    "clauses": 62589,
+    "input_sha256": "c4829b62242d222d8fe3e9e7e5dd71709d496804e5c225ffb2b4faac808e5973"
+  },
+  {
+    "id": "profile-06",
+    "degrees": [
+      10,
+      9,
+      9,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 1,
+    "ordered_forms": 4,
+    "variables": 286,
+    "clauses": 61818,
+    "input_sha256": "39cd88649682b00e1a7ac3c3413b4d0f98383e9788a2f2494a4f15be6f669d6c"
+  },
+  {
+    "id": "profile-07",
+    "degrees": [
+      10,
+      10,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 61606,
+    "input_sha256": "0ced416ef1449b8ac1aa630227f9feeb248a4df626d19ed7eb0798f680421a50"
+  },
+  {
+    "id": "profile-08",
+    "degrees": [
+      11,
+      8,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 62828,
+    "input_sha256": "63d4c865397d8ac8479511c964bada2fc3041e5ef25c3f166d5ffbab537bea85"
+  },
+  {
+    "id": "profile-09",
+    "degrees": [
+      11,
+      9,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 272,
+    "clauses": 61887,
+    "input_sha256": "b461c4e236ea27b184a5e8105187bd422862bae0be0e59ea04f81cedbcb8ad22"
+  },
+  {
+    "id": "profile-10",
+    "degrees": [
+      11,
+      10,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 60904,
+    "input_sha256": "ec0b1ae2e8c1dede0b29d3c5e29bd4c11abc5bfe0f9b06d8c0ed72878454f9c9"
+  },
+  {
+    "id": "profile-11",
+    "degrees": [
+      12,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 62686,
+    "input_sha256": "fc77d94062541ab736138ac24f6f617d76e193da230f910419aa42a0a51a085a"
+  },
+  {
+    "id": "profile-12",
+    "degrees": [
+      12,
+      9,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 61828,
+    "input_sha256": "783c4bd6c8043ae14c590ea68cc5c73dfd583bce0502d28039c15f2c83168063"
+  },
+  {
+    "id": "profile-13",
+    "degrees": [
+      13,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 286,
+    "clauses": 62972,
+    "input_sha256": "c5865a55239b34a5114f4435f7611d46a19d20823cf22ef38b962936fed3f119"
+  },
+  {
+    "id": "profile-14",
+    "degrees": [
+      14,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "equivalence_classes": 0,
+    "ordered_forms": 0,
+    "variables": 300,
+    "clauses": 63549,
+    "input_sha256": "75d7eb0fca1448981d4d2304d03003eb9f872f0fbf1eb614d2d1579871de2f67"
+  }
+]
